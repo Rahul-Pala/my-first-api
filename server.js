@@ -13,10 +13,12 @@ app.get("/products", (req, res) => {
   res.json([
     { id: 1, name: "Laptop", price: 1200 },
     { id: 2, name: "Phone", price: 800 },
-    { id: 3, name: "Headphones", price: 150 }
+    { id: 3, name: "Headphones", price: 150 },
+    { id: 4, name: "Smartwatch", price: 350 }
   ]);
 });
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
